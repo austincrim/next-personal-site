@@ -16,7 +16,7 @@
             "description": "A simple todo list app I created to learn Svelte.",
             "imagePath": "/todo.jpg",
             "repoUrl": "https://github.com/austincrim/tailwind-svelte",
-            "appUrl": "https://tailwind-svelte-todo.austcrim.now.sh/"
+            "appUrl": "https://tailwind-svelte.vercel.app/"
         },
         {
             "title": "This Website",

@@ -15,14 +15,14 @@ const Post = ({ postData }) => {
             <BlogNav />
             <div className='my-16 p-10 max-w-4xl mx-auto text-gray-800 bg-gray-200 rounded-md'>
                 <article>
-                    <div className='flex justify-between items-center border-b border-indigo-200'>
-                        <h3 className='text-3xl text-teal-600 inline'>{postData.title}</h3>
+                    <div className='flex justify-between items-end border-b border-indigo-200'>
+                        <h3 className='text-4xl text-teal-700 inline'>{postData.title}</h3>
                         <span className='text-gray-600'>
                             {new Date(postData.date).toLocaleDateString()}
                         </span>
                     </div>
                     <div
-                        className='mt-8 text-lg font-sans text-left post-content'
+                        className='mt-8 prose max-w-none'
                         dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
                     />
                 </article>

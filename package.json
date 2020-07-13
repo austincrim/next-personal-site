@@ -12,6 +12,7 @@
   "author": "Austin Crim",
   "license": "ISC",
   "dependencies": {
+    "@tailwindcss/typography": "^0.1.2",
     "autoprefixer": "^9.7.6",
     "dompurify": "^2.0.11",
     "gray-matter": "^4.0.2",

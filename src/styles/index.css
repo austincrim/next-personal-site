@@ -49,40 +49,4 @@ body {
     transform: translateY(-2px);
 }
 
-.post-content h1 {
-    @apply text-3xl mt-2;
-}
-
-.post-content h2 {
-    @apply text-2xl mt-2;
-}
-
-.post-content h3 {
-    @apply text-xl mt-2;
-}
-
-.post-content h4 {
-    @apply text-lg mt-2;
-}
-
-.post-content p {
-    @apply mt-2 leading-8;
-}
-
-.post-content li {
-    @apply list-inside list-disc;
-}
-
-.post-content code {
-    @apply bg-gray-800 text-gray-100 rounded p-1;
-}
-
-.post-content a {
-    @apply text-blue-500;
-}
-
-.post-content a:hover {
-    @apply text-blue-700;
-}
-
 @tailwind utilities;
